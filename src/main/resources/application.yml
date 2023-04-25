@@ -1,0 +1,27 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://mysql:3306/lalamove?useSSL=false&allowPublicKeyRetrieval=true
+    username: root
+    password: 1234
+    jackson:
+      default-property-inclusion: non_null
+
+
+#mybatis-plus
+mybatis-plus:
+  mapper-locations: classpath:/mapper/**/*Mapper.xml
+  typeAliasesPackage: com.lala.entity
+
+
+#配置日志使用
+logging:
+  level:
+    com.lala: info
+
+webapi:
+  apikey:
+
+
