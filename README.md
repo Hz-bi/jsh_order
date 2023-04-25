@@ -18,6 +18,8 @@ The project uses springboot and mysql, and implements all the features that meet
 4.http://localhost:8080/swagger-ui.html, do the test
 
 ![swagger](png/swagger.png)
+
+5.I commented out the code for the unit test. Please remove the comment if you want to use it.
 ## Regrets of the project
 Local tests all succeed, but the project cannot connect to the mysql container
 
