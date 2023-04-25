@@ -21,7 +21,10 @@ The project uses springboot and mysql, and implements all the features that meet
 
 5.I commented out the code for the unit test. Please remove the comment if you want to use it.
 ## Regrets of the project
-Local tests all succeed, but the project cannot connect to the mysql container
+
+1.Docker cannot mount the local init.sql file
+
+2.Local tests all succeed, but the project cannot connect to the mysql container
 
 
 
