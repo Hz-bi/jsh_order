@@ -1,0 +1,34 @@
+<xs:schema>
+    <xs:element name="BCO_01">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="serial_no" type="xs:string" minOccurs="0" maxLength="30" />
+                <xs:element name="healthcare_staff_english_title" type="xs:string" minOccurs="0" maxLength="50" />
+                <xs:element name="healthcare_staff_english_given_name" type="xs:string" minOccurs="0" maxLength="50" />
+                <xs:element name="healthcare_staff_english_surname" type="xs:string" minOccurs="0" maxLength="50" />
+                <xs:element name="applicant_gender" type="xs:string" minOccurs="0" maxLength="30" />
+                <xs:element name="applicant_date_of_birth" type="xs:date" />
+                <xs:element name="applicant_identity_document_number" type="xs:string" minOccurs="0" maxLength="50" />
+                <xs:element name="healthcare_staff_address_eng_block" type="xs:string" minOccurs="0" maxLength="50" />
+                <xs:element name="healthcare_staff_address_eng_building" type="xs:string" minOccurs="0" maxLength="50" />
+                <xs:element name="healthcare_staff_address_eng_estate" type="xs:string" minOccurs="0" maxLength="50" />
+                <xs:element name="healthcare_staff_address_eng_floor" type="xs:string" minOccurs="0" maxLength="50" />
+                <xs:element name="healthcare_staff_address_eng_room" type="xs:string" minOccurs="0" maxLength="50" />
+                <xs:element name="healthcare_staff_address_eng_street_number" type="xs:string" minOccurs="0" maxLength="50" />
+                <xs:element name="healthcare_staff_address_subdistrict" type="xs:string" minOccurs="0" maxLength="50" />
+                <xs:element name="healthcare_staff_address_district" type="xs:string" minOccurs="0" maxLength="50" />
+                <xs:element name="healthcare_staff_address_region" type="xs:string" minOccurs="0" maxLength="50" />
+                <xs:element name="healthcare_staff_address_state" type="xs:string" minOccurs="0" maxLength="50" />
+                <xs:element name="healthcare_staff_address_country_territory" type="xs:string" minOccurs="0" maxLength="50" />
+                <xs:element name="healthcare_staff_address_postal_code" type="xs:string" minOccurs="0" maxLength="50" />
+                <xs:element name="healthcare_staff_address_csuid" type="xs:string" minOccurs="0" maxLength="50" />
+                <xs:element name="healthcare_staff_foreign_address_indicator" type="xs:string" minOccurs="0" maxLength="30" />
+                <xs:element name="license_number" type="xs:string" minOccurs="0" maxLength="30" />
+                <xs:element name="registration_date" type="xs:date" />
+                <xs:element name="qualifications" type="xs:string" minOccurs="0" maxLength="50" />
+                <xs:element name="license_issue_date" type="xs:date" />
+                <xs:element name="notice" type="xs:string" minOccurs="0" maxLength="50" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

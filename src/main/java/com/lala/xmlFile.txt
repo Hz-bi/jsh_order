@@ -1,0 +1,31 @@
+<BCO_01 xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"" xsi:noNamespaceSchemaLocation=""BCO_01.xsd"">
+    <record>
+        <serial_no> 30 </serial_no>
+        <healthcare_staff_english_title> aaa </healthcare_staff_english_title>
+        <healthcare_staff_english_given_name> aaa </healthcare_staff_english_given_name>
+        <healthcare_staff_english_surname> {Field Content} </healthcare_staff_english_surname>
+        <applicant_gender> {Field Content} </applicant_gender>
+        <applicant_date_of_birth> {Field Content} </applicant_date_of_birth>
+        <applicant_identity_document_number> {Field Content} </applicant_identity_document_number>
+        <healthcare_staff_address_eng_block> {Field Content} </healthcare_staff_address_eng_block>
+        <healthcare_staff_address_eng_building> {Field Content} </healthcare_staff_address_eng_building>
+        <healthcare_staff_address_eng_estate> {Field Content} </healthcare_staff_address_eng_estate>
+        <healthcare_staff_address_eng_floor> {Field Content} </healthcare_staff_address_eng_floor>
+        <healthcare_staff_address_eng_room> {Field Content} </healthcare_staff_address_eng_room>
+        <healthcare_staff_address_eng_street_number> {Field Content} </healthcare_staff_address_eng_street_number>
+        <healthcare_staff_address_subdistrict> {Field Content} </healthcare_staff_address_subdistrict>
+        <healthcare_staff_address_district> {Field Content} </healthcare_staff_address_district>
+        <healthcare_staff_address_region> {Field Content} </healthcare_staff_address_region>
+        <healthcare_staff_address_state> {Field Content} </healthcare_staff_address_state>
+        <healthcare_staff_address_country_territory> {Field Content} </healthcare_staff_address_country_territory>
+        <healthcare_staff_address_postal_code> {Field Content} </healthcare_staff_address_postal_code>
+        <healthcare_staff_address_csuid> {Field Content} </healthcare_staff_address_csuid>
+        <healthcare_staff_foreign_address_indicator> {Field Content} </healthcare_staff_foreign_address_indicator>
+        <license_number> {Field Content} </license_number>
+        <registration_date> {Field Content} </registration_date>
+        <qualifications> {Field Content} </qualifications>
+        <license_issue_date> {Field Content} </license_issue_date>
+        <notice> {Field Content} </notice>
+        <license_status> {Field Content} </license_status>
+    </record>
+</BCO_01>
